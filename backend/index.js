@@ -12,7 +12,7 @@ app.use(express.json());
 
 // A basic GET route that responds with "Hello World!" when accessed
 app.get('/', (req, res) => {
-  res.send('Hello World! This is your backend server responding.');
+  res.send('Hello Pookie! Your backend server is responding.');
 });
 
 // Start the server and listen on the defined port
